@@ -14,6 +14,8 @@ import torch.nn.init as init
 import torch.nn.functional as F
 from torch.autograd import Variable
 from functools import partial
+import numpy as np
+
 
 
 class C3D(nn.Module):
